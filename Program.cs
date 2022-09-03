@@ -1,10 +1,8 @@
-﻿using System.Text;
-
-namespace StudentTask
+﻿namespace StudentTask
 {
     class Program
     {
-        public static void Main(string[] args)
+        public static void Main()
         {
             string input = "Lorem ipsum dolor sit amet";
             Console.WriteLine(FirstMeeting.Loop(input));
